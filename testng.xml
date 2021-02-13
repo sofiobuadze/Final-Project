@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" verbose="1" thread-count="8">
+    <test name="TestSuit1">
+        <classes>
+            <class name="RegisterPageTest" />
+
+        </classes>
+    </test>
+    <test name="TestSuit2">
+        <classes>
+
+            <class name="RegisterPageNegativeTest" />
+        </classes>
+    </test>
+    <test name="TestSuit4">
+        <classes>
+
+            <class name="SignInPageTest" />
+        </classes>
+    </test>
+    <test name="TestSuit3">
+        <classes>
+
+            <class name="SignInPageNegativeTest" />
+        </classes>
+    </test>
+    <test name="TestSuit5">
+        <classes>
+
+            <class name="TodaysDealsTest" />
+        </classes>
+    </test>
+
+</suite>
